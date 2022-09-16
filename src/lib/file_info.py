@@ -3,7 +3,7 @@ from datetime import datetime
 
 from dataclasses_json import dataclass_json, Undefined, LetterCase
 
-from easyarchive import jsonx
+from cli import jsonx
 
 
 @dataclass_json(undefined=Undefined.EXCLUDE, letter_case=LetterCase.CAMEL)

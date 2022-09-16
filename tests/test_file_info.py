@@ -1,4 +1,4 @@
-from easyarchive.file_info import FileInfo, Files, FilesEncoder, FilesIO
+from cli.file_info import FileInfo, Files, FilesEncoder, FilesIO
 from tests.fake_file_system import FakeFileSystem
 
 

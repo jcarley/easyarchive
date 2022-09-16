@@ -1,4 +1,4 @@
-from easyarchive.sync import sync
+from cli.sync import sync
 from tests.fake_file_system import FakeFileSystem
 
 

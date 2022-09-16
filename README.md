@@ -11,8 +11,8 @@ Coming soon. The project at this time is still a work in progress so a command l
 
 I used pyenv and pyenv-virtualenv for this project. PipEnv maybe be a better option overall though.
 
-* git clone to local workstation
-* create a virtual environment
+- git clone to local workstation
+- create a virtual environment
 
 ```shell
 pyenv local 3.10.6
@@ -20,14 +20,22 @@ pyenv virtualenv easyarchive3106
 pyenv local easyarchive3106
 ```
 
-* install dependencies and upgrade python friends
+- install dependencies and upgrade python friends
 
 ```shell
 python3 -m pip install --upgrade pip setuptools wheel
 ```
 
-* install local project module
+- install local project module
 
 ```shell
 pip install -e src/
 ```
+
+# References
+
+https://www.thepythoncode.com/article/send-receive-files-using-sockets-python
+
+http://michaldul.com/python/sendfile/
+
+https://stackoverflow.com/questions/53136368/sending-multiple-files-python-using-socket
